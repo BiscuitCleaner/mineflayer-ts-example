@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "declaration": true,
+        "esModuleInterop": true,
+        "lib": ["ES2022"],
+        "module": "commonjs",
+        "outDir": "./dist",
+        "skipLibCheck": true,
+        "strict": true,
+        "target": "ES2022",
+        "resolveJsonModule": true
+    },
+    "include": ["./src/**/*", "./test/*", "index.ts"]
+}
